@@ -75,10 +75,4 @@ Access the site at `http://localhost`.
 - `templates/`: HTML components and page layouts.
 - `config/`: Django project configuration (settings, URLs).
 
-## 📄 Deployment
 
-The project is pre-configured for production deployment via Nginx and Gunicorn. Detailed deployment steps can be found in the [walkthrough.md](./walkthrough.md) (internal documentation) or by following standard Docker deployment practices.
-
----
-
-*Bestattungshaus Riedel — At your side in difficult times.*
