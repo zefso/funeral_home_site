@@ -17,6 +17,5 @@ COPY . .
 # Expose port
 EXPOSE 8000
 
-# collectstatic + gunicorn run at container start (via docker-compose command)
-# so that SECRET_KEY from .env is available
-CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "3", "--timeout", "120"]
+# Run migrations, collect static files, and start Gunicorn
+CMD sh -c "python manage.py migrate --noinput && python manage.py collectstatic --noinput && gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 3 --timeout 120"
