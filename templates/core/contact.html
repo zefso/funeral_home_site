@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<section class="page-header contact-hero">
+    <div class="container text-center">
+        <span class="section-subtitle">{% trans "Erreichbarkeit" %}</span>
+        <h1>{% trans "Kontakt" %}</h1>
+        <div class="header-line"></div>
+    </div>
+</section>
+
+<section class="contact-section section-padding">
+    <div class="container">
+        <div class="contact-container-box">
+
+            <div class="contact-main-grid">
+                <div class="contact-details-side">
+                    <div class="contact-header">
+                        <h2>{% trans "Bestattungshaus Riedel" %}</h2>
+                        <p>{% trans "Ich begleite Sie achtsam und stehe Ihnen bei Fragen jederzeit zur Verfügung." %}
+                        </p>
+                    </div>
+
+                    <div class="contact-methods">
+                        <div class="method-item">
+                            <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="method-text">
+                                <span>{% trans "Telefon" %}</span>
+                                <p>+49 160 7608156 (Michael Riedel)</p>
+                            </div>
+                        </div>
+
+                        <div class="method-item">
+                            <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="method-text">
+                                <span>{% trans "E-Mail" %}</span>
+                                <a
+                                    href="mailto:Bestattungshaus-Riedel@t-online.de">Bestattungshaus-Riedel@t-online.de</a>
+                            </div>
+                        </div>
+
+                        <div class="method-item">
+                            <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="method-text">
+                                <span>{% trans "Adresse" %}</span>
+                                <p>Am Försterholz 24, 21401 Thomasburg</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="availability-badge">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>{% trans "24/7 erreichbar – auch an Wochenenden und Feiertagen." %}</p>
+                    </div>
+                </div>
+
+                <div class="contact-map-side">
+                    <iframe width="100%" height="100%" frameborder="0" style="border:0"
+                        src="https://www.google.com/maps?q=Am+Försterholz+24,21401+Thomasburg,Germany&output=embed&hl={{ LANGUAGE_CODE }}"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="contact-legal-footer">
+                <div class="legal-item">
+                    <strong>{% trans "Inhaber" %}</strong>
+                    <p>Michael Riedel</p>
+                </div>
+                <div class="legal-item">
+                    <strong>{% trans "Umsatzsteuer-ID" %}</strong>
+                    <p>{% trans "wird nachgereicht" %}</p>
+                </div>
+                <div class="legal-item">
+                    <strong>{% trans "Aufsichtsbehörde" %}</strong>
+                    <p>{% trans "Niedersachsen" %}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>{% trans "Leistungen" %}</h1>
+    </div>
+</section>
+
+<section class="services-content section-padding">
+    <div class="container">
+
+        <!-- Bestattungsarten -->
+        <div class="service-block">
+            <h2>{% trans "Bestattungsarten" %}</h2>
+            <p>{% trans "Ich begleite Sie bei allen Bestattungsformen:" %}</p>
+            <ul class="styled-list">
+                <li>{% trans "Erdbestattung" %}</li>
+                <li>{% trans "Feuerbestattung" %}</li>
+                <li>{% trans "Seebestattung" %}</li>
+                <li>{% trans "Waldbestattung (z. B. FriedWald, RuheForst, EwigForst)" %}</li>
+                <li>{% trans "Anonyme Bestattung" %}</li>
+            </ul>
+            <p class="highlight-text">
+                {% blocktrans trimmed %}
+                Die Begleitung erfolgt individuell und ortsunabhängig – im Landkreis Lüneburg, im Landkreis Harburg und
+                darüber hinaus.
+                {% endblocktrans %}
+            </p>
+        </div>
+
+        <hr class="section-divider">
+
+        <!-- Individuelle Abschiedsgestaltung -->
+        <div class="service-block">
+            <h2>{% trans "Individuelle Abschiedsgestaltung" %}</h2>
+            <p>{% trans "Abschied darf persönlich sein." %}</p>
+            <p>{% trans "Gemeinsam gestalten wir eine Trauerfeier, die zu dem Menschen passt, den Sie verabschieden." %}
+            </p>
+
+            <h3>{% trans "Mögliche Schwerpunkte:" %}</h3>
+            <ul class="styled-list">
+                <li>{% trans "Natur & Wald" %}</li>
+                <li>{% trans "Maritim / See" %}</li>
+                <li>{% trans "Klassisch & zurückhaltend" %}</li>
+            </ul>
+
+            <div class="info-box">
+                <h4>{% trans "Auf Wunsch binden wir Gedenklichter ein." %}</h4>
+                <p>
+                    {% blocktrans trimmed %}
+                    Zu Beginn der Trauerfeier können diese von den Gästen abgelegt werden – erst danach nehmen sie
+                    Platz.
+                    Für viele Trauernde entsteht so ein bewusster, ruhiger Beginn des Abschieds.
+                    {% endblocktrans %}
+                </p>
+            </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <!-- Erinnerungsschmuck -->
+        <div class="service-block">
+            <h2>{% trans "Erinnerungsschmuck & Gedenkkristalle" %}</h2>
+            <p>
+                {% blocktrans trimmed %}
+                In Zusammenarbeit mit <strong>Olha’s Gedenkkristalle</strong> entstehen handgefertigte Erinnerungsstücke
+                aus Epoxidharz:
+                {% endblocktrans %}
+            </p>
+            <ul class="styled-list">
+                <li>{% trans "Ketten und Anhänger" %}</li>
+                <li>{% trans "Herzen und Handschmeichler" %}</li>
+                <li>{% trans "Erinnerungsobjekte für zu Hause" %}</li>
+            </ul>
+
+            <p>{% trans "Eingearbeitet werden können:" %}</p>
+            <ul class="styled-list">
+                <li>{% trans "Haare" %}</li>
+                <li>{% trans "Fingerabdrücke" %}</li>
+                <li>{% trans "kleine Fotos" %}</li>
+            </ul>
+            <p><em>{% trans "Alle Stücke entstehen in liebevoller Handarbeit." %}</em></p>
+        </div>
+
+    </div>
+</section>
+{% endblock %}

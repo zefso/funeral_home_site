@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="page-header detail-header soft-overlay">
+    <div class="container header-content">
+        <span class="section-subtitle">
+            {% trans "Individuelle Begleitung" %}
+        </span>
+        <h1 class="main-title">
+            {% trans "Persönliche Abschiednahme" %}
+        </h1>
+    </div>
+</section>
+
+<!-- INTRO -->
+<section class="content-section">
+    <div class="container narrow-content">
+
+        <div class="intro-box elegant-box">
+            <p class="lead-text">
+                {% blocktrans trimmed %}
+                Der bewusste Abschied am offenen Sarg kann für viele Angehörige ein wichtiger Schritt im Trauerprozess
+                sein.
+                Er schafft einen geschützten Raum, um noch einmal in Ruhe zu verweilen, Worte zu finden oder просто
+                побыть в тишине.
+                {% endblocktrans %}
+            </p>
+        </div>
+
+        <!-- LOCATIONS -->
+        <div class="info-grid modern-grid">
+
+            <div class="info-card soft-card">
+                <div class="icon-wrap">
+                    <i class="fa-solid fa-house-user"></i>
+                </div>
+                <h3>{% trans "Zu Hause" %}</h3>
+                <p>{% trans "In Ihrer vertrauten Umgebung, ganz privat." %}</p>
+            </div>
+
+            <div class="info-card soft-card">
+                <div class="icon-wrap">
+                    <i class="fa-solid fa-mosque"></i>
+                </div>
+                <h3>{% trans "Krematorium" %}</h3>
+                <p>{% trans "In den dafür vorgesehenen Räumlichkeiten." %}</p>
+            </div>
+
+            <div class="info-card soft-card">
+                <div class="icon-wrap">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h3>{% trans "Abschiedsräume" %}</h3>
+                <p>{% trans "In unseren eigenen, geschützten Räumen." %}</p>
+            </div>
+
+        </div>
+
+        <!-- QUOTE -->
+        <div class="highlight-quote modern-quote">
+            <span class="quote-line small">
+                {% trans "Es geht nicht um Formalitäten." %}
+            </span>
+            <span class="quote-line emphasis">
+                {% trans "Es geht um Nähe." %}
+            </span>
+            <span class="quote-line small">
+                {% trans "Um Zeit. Und um Würde." %}
+            </span>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="details-section elegant-box">
+
+            <p>
+                {% blocktrans trimmed %}
+                Auf Wunsch bereiten wir den Raum individuell vor – schlicht und ruhig oder mit persönlichen Elementen,
+                die an den Verstorbenen erinnern. <strong>Nichts muss, alles darf.</strong>
+                {% endblocktrans %}
+            </p>
+
+            <p class="final-promise">
+                {% blocktrans trimmed %}
+                Ich bleibe an Ihrer Seite und sorge dafür, dass dieser Abschied in einem würdevollen und geschützten
+                Rahmen stattfinden kann.
+                {% endblocktrans %}
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

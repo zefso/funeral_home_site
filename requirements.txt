@@ -1,0 +1,6 @@
+django~=5.0
+django-environ
+django-modeltranslation
+pillow
+gunicorn
+whitenoise

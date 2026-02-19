@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+
+<!-- CINEMATIC HERO -->
+<section class="page-header cinematic-hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-layer">
+        <span class="section-subtitle light">
+            {% trans "Individuelle Worte des Abschieds" %}
+        </span>
+        <h1 class="hero-title">
+            {% trans "Traueransprachen" %}
+        </h1>
+        <div class="hero-divider"></div>
+        <p class="hero-tagline">
+            {% trans "Worte, die erinnern. Worte, die tragen." %}
+        </p>
+    </div>
+</section>
+
+<!-- FLOATING STORY -->
+<section class="content-section floating-section">
+    <div class="container story-card">
+
+        <div class="story-columns">
+
+            <div class="story-main">
+
+                <p class="story-lead">
+                    {% blocktrans trimmed %}
+                    Jeder Mensch hinterlässt eine einzigartige Geschichte.
+                    Jede Geschichte verdient Worte, die ihr gerecht werden.
+                    {% endblocktrans %}
+                </p>
+
+                <p>
+                    {% blocktrans trimmed %}
+                    Die Traueransprache ist ein sensibler Moment des Abschieds.
+                    Sie macht sichtbar, was bleibt: Erinnerungen, Werte und Spuren eines gelebten Lebens.
+                    {% endblocktrans %}
+                </p>
+
+                <div class="callout-line">
+                    {% trans "Ich spreche für Sie, wenn Sie es wünschen." %}
+                </div>
+
+                <p>
+                    {% blocktrans trimmed %}
+                    In unserem Trauergespräch nehmen wir uns bewusst Zeit für Erinnerungen,
+                    Gedanken, besondere Momente und kleine Details.
+                    Daraus entsteht eine persönliche, würdevolle Ansprache – ehrlich und einfühlsam.
+                    {% endblocktrans %}
+                </p>
+
+                <p>
+                    {% blocktrans trimmed %}
+                    Gerne können Sie mir Ihre Erinnerungen auch schriftlich anvertrauen.
+                    Ich forme daraus behutsam Worte, die tragen.
+                    {% endblocktrans %}
+                </p>
+
+            </div>
+
+            <div class="story-side">
+                <div class="emotion-card">
+                    <p>{% trans "Nicht beeindrucken." %}</p>
+                    <p class="big">{% trans "Berühren." %}</p>
+                    <p>{% trans "Verbinden. Trost schenken." %}</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="story-footer">
+
+            <p>
+                {% blocktrans trimmed %}
+                Auf Wunsch vermittle ich erfahrene professionelle Trauerrednerinnen und Trauerredner,
+                die einfühlsam begleiten.
+                {% endblocktrans %}
+            </p>
+
+            <p class="closing-line">
+                {% blocktrans trimmed %}
+                Ob ich selbst spreche oder vermittle –
+                ich gestalte mit Ihnen einen würdevollen, persönlichen Abschied.
+                {% endblocktrans %}
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container hero-content">
+        <h1>{% trans "An Ihrer Seite – in schweren Stunden." %}</h1>
+        <p>{% trans "Ich komme zu Ihnen – dorthin, wo Abschied möglich sein darf." %}</p>
+
+        <div class="hero-sub">
+            {% trans "Alles aus einer vertrauensvollen Hand." %}
+        </div>
+    </div>
+</section>
+
+<!-- Cards Section -->
+<section class="cards-section">
+    <div class="container">
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fa-solid fa-cross"></i>
+                </div>
+                <h3>{% trans "Bestattungen" %}</h3>
+                <p>
+                    {% blocktrans trimmed %}
+                    Respektvolle Bestattungen unter Berücksichtigung all Ihrer Wünsche und Traditionen. Wir
+                    sind für Sie da.
+                    {% endblocktrans %}
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fa-regular fa-comments"></i>
+                </div>
+                <h3>{% trans "Traueransprachen" %}</h3>
+                <p>
+                    {% blocktrans trimmed %}
+                    Mit persönlicher und individueller Trauerrede, gestalten wir den Abschied unvergesslich.
+                    {% endblocktrans %}
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fa-solid fa-handshake-simple"></i>
+                </div>
+                <h3>{% trans "Abschiednahme" %}</h3>
+                <p>
+                    {% blocktrans trimmed %}
+                    Raum für persönliche Abschiednahme in geborgener Atmosphäre. Zeit für Erinnerungen.
+                    {% endblocktrans %}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Personal Accompaniment Section -->
+<section class="feature-section">
+    <div class="container">
+        <div class="feature-grid">
+            <div class="feature-img">
+                <img src="{% static 'img/home/middle.jpg' %}" alt="Personal Accompaniment">
+            </div>
+            <div class="feature-text">
+                <h2>{% trans "Persönliche Begleitung" %}</h2>
+                <p>
+                    {% blocktrans trimmed %}
+                    Eine Hand, die Sie sicher hält. Lebensnaher, persönlicher und unterstützender Dienst.
+                    {% endblocktrans %}
+                </p>
+                <p>
+                    {% blocktrans trimmed %}
+                    Ich begleite Sie gerne bei Bestattungen, unter allen Bedingungen, zuhause oder in
+                    Begleitung. Für ein würdiges Andenken.
+                    {% endblocktrans %}
+                </p>
+                <a href="{% url 'core:service_list' %}" class="btn-primary">{% trans "Mehr Erfahren" %}</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,98 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Bestattungshaus Riedel{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon-32x32.png' %}">
+    <!-- Use FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-inner">
+            <div class="logo-area">
+                <a href="{% url 'core:home' %}"
+                    style="text-decoration: none; display: flex; align-items: center; gap: 15px;">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-dove fa-2x" style="color: var(--color-primary);"></i>
+                    </div>
+                    <div class="brand-name">
+                        {% trans "Bestattungshaus" %}<br>
+                        <span>Riedel</span>
+                    </div>
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="{% url 'core:home' %}">{% trans "Home" %}</a></li>
+                    <li><a href="{% url 'core:service_list' %}">{% trans "Leistungen" %}</a></li>
+                    <li><a href="{% url 'core:precaution' %}">{% trans "Vorsorge" %}</a></li>
+                    <li><a href="{% url 'core:funeral_speeches' %}">{% trans "Traueransprachen" %}</a></li>
+                    <li><a href="{% url 'core:farewell' %}">{% trans "Abschiednahme" %}</a></li>
+                    <li><a href="{% url 'core:contact' %}">{% trans "Kontakt" %}</a></li>
+
+                    <!-- Language Switcher Small -->
+                    <div class="language-switcher">
+                        {% get_current_language as CURRENT_LANGUAGE %}
+                        {% get_available_languages as LANGUAGES %}
+
+                        {% for code, name in LANGUAGES %}
+                        <form action="{% url 'set_language' %}" method="post" class="lang-form">
+                            {% csrf_token %}
+                            <input type="hidden" name="language" value="{{ code }}">
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+
+                            <button type="submit" class="lang-btn {% if code == CURRENT_LANGUAGE %}active{% endif %}"
+                                title="{{ name }}">
+                                <img src="{% static 'img/flags/' %}{{ code }}.png" alt="{{ code|upper }}"
+                                    class="flag-img">
+                            </button>
+                        </form>
+                        {% endfor %}
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <ul>
+                    <li>{% trans "Landkreis Lüneburg" %}</li>
+                    <li>•</li>
+                    <li>{% trans "Landkreis Harburg" %}</li>
+                    <li>•</li>
+                    <li>{% trans "Herzogtum Lauenburg" %}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container contact-bar">
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>{% trans "24h erreichbar: +49 160 7608156" %}</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Bestattungshaus-Riedel@t-online.de</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

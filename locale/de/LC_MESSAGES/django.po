@@ -1,0 +1,663 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-19 08:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\config\settings.py:97
+msgid "German"
+msgstr ""
+"Deutsch"
+
+#: .\config\settings.py:98
+msgid "English"
+msgstr ""
+"Englisch"
+
+#: .\services\models.py:5
+msgid "Name"
+msgstr ""
+"Name"
+
+#: .\services\models.py:9 .\services\models.py:16
+msgid "Category"
+msgstr ""
+"Kategorie"
+
+#: .\services\models.py:10
+msgid "Categories"
+msgstr ""
+"Kategorien"
+
+#: .\services\models.py:17
+msgid "Title"
+msgstr ""
+"Titel"
+
+#: .\services\models.py:18
+msgid "Short Description"
+msgstr ""
+"Kurzbeschreibung"
+
+#: .\services\models.py:19
+msgid "Full Description"
+msgstr ""
+"Vollständige Beschreibung"
+
+#: .\services\models.py:20
+msgid "Price"
+msgstr ""
+"Preis"
+
+#: .\services\models.py:21
+msgid "Image"
+msgstr ""
+"Bild"
+
+#: .\services\models.py:22
+msgid "Active"
+msgstr ""
+"Aktiv"
+
+#: .\services\models.py:26
+msgid "Service"
+msgstr ""
+"Service"
+
+#: .\services\models.py:27
+msgid "Services"
+msgstr ""
+"Dienstleistungen"
+
+#: .\templates\base.html:25
+msgid "Bestattungshaus"
+msgstr ""
+"Bestattungshaus"
+
+#: .\templates\base.html:33
+msgid "Home"
+msgstr ""
+"Heim"
+
+#: .\templates\base.html:34 .\templates\core\service_list.html:8
+msgid "Leistungen"
+msgstr ""
+"Leistungen"
+
+#: .\templates\base.html:35
+msgid "Vorsorge"
+msgstr ""
+"Bestattungsvorsorge"
+
+#: .\templates\base.html:36 .\templates\core\funeral_speeches.html:14
+#: .\templates\core\home.html:41
+msgid "Traueransprachen"
+msgstr ""
+"Traueransprachen"
+
+#: .\templates\base.html:37 .\templates\core\home.html:54
+msgid "Abschiednahme"
+msgstr ""
+"Abschiednahme"
+
+#: .\templates\base.html:38 .\templates\core\contact.html:8
+msgid "Kontakt"
+msgstr ""
+"Kontakt"
+
+#: .\templates\base.html:72
+msgid "Landkreis Lüneburg"
+msgstr ""
+"Landkreis Lüneburg"
+
+#: .\templates\base.html:74
+msgid "Landkreis Harburg"
+msgstr ""
+"Landkreis Harburg"
+
+#: .\templates\base.html:76
+msgid "Herzogtum Lauenburg"
+msgstr ""
+"Herzogtum Lauenburg"
+
+#: .\templates\base.html:84
+msgid "24h erreichbar: +49 160 7608156"
+msgstr ""
+"24h erreichbar: +49 160 7608156"
+
+#: .\templates\core\Precaution.html:10
+msgid "Bestattungsvorsorge"
+msgstr ""
+"Bestattungsvorsorge"
+
+#: .\templates\core\Precaution.html:13
+msgid "Selbstbestimmt entscheiden. Angehörige entlasten."
+msgstr ""
+"Selbstbestimmt entscheiden. Angehörige entlasten."
+
+#: .\templates\core\Precaution.html:26
+msgid ""
+"Über das eigene Lebensende zu sprechen, braucht Vertrauen. Und Zeit. Beides "
+"möchte ich Ihnen geben."
+msgstr ""
+"Über das eigene Lebensende zu sprechen, braucht Vertrauen. Und Zeit. Beides möch"
+"te ich Ihnen geben."
+
+#: .\templates\core\Precaution.html:36
+msgid ""
+"In einem ruhigen Gespräch höre ich Ihnen zu: Was ist Ihnen wichtig? Welche "
+"Vorstellungen tragen Sie in sich? Welche Fragen bewegen Sie?"
+msgstr ""
+"In einem ruhigen Gespräch höre ich Ihnen zu: Was ist Ihnen wichtig? Welche Vorst"
+"ellungen tragen Sie in sich? Welche Fragen bewegen Sie?"
+
+#: .\templates\core\Precaution.html:47
+msgid ""
+"Mit einer Bestattungsvorsorge schaffen Sie Klarheit – für sich und Ihre "
+"Angehörigen. Sie bestimmen Bestattungsart, Zeremonie, Musik, Rituale und "
+"persönliche Wünsche. Alles wird sorgfältig festgehalten und umgesetzt."
+msgstr ""
+"Mit einer Bestattungsvorsorge schaffen Sie Klarheit – für sich und Ihre Angehöri"
+"gen. Sie bestimmen Bestattungsart, Zeremonie, Musik, Rituale und persönliche Wün"
+"sche. Alles wird sorgfältig festgehalten und umgesetzt."
+
+#: .\templates\core\Precaution.html:57
+msgid "Für mich bedeutet Vorsorge vor allem eines: Fürsorge."
+msgstr ""
+"Für mich bedeutet Vorsorge vor allem eines: Fürsorge."
+
+#: .\templates\core\Precaution.html:63
+msgid ""
+"Sie schenken Ihren Angehörigen Orientierung und Sicherheit in einer "
+"emotional schweren Zeit."
+msgstr ""
+"Sie schenken Ihren Angehörigen Orientierung und Sicherheit in einer emotional sc"
+"hweren Zeit."
+
+#: .\templates\core\Precaution.html:73
+msgid ""
+"Auch finanzielle Fragen werden transparent geregelt, damit organisatorisch "
+"wie menschlich alles vorbereitet ist."
+msgstr ""
+"Auch finanzielle Fragen werden transparent geregelt, damit organisatorisch wie m"
+"enschlich alles vorbereitet ist."
+
+#: .\templates\core\Precaution.html:81
+msgid ""
+"Die Bestattungsvorsorge ist kein schwerer Schritt. Sie ist ein bewusster – "
+"aus Verantwortung und aus Liebe."
+msgstr ""
+"Die Bestattungsvorsorge ist kein schwerer Schritt. Sie ist ein bewusster – aus V"
+"erantwortung und aus Liebe."
+
+#: .\templates\core\Precaution.html:88
+msgid "Gerne bin ich persönlich für ein unverbindliches Gespräch für Sie da."
+msgstr ""
+"Gerne bin ich persönlich für ein unverbindliches Gespräch für Sie da."
+
+#: .\templates\core\contact.html:7
+msgid "Erreichbarkeit"
+msgstr ""
+"Erreichbarkeit"
+
+#: .\templates\core\contact.html:20
+msgid "Bestattungshaus Riedel"
+msgstr ""
+"Bestattungshaus Riedel"
+
+#: .\templates\core\contact.html:21
+msgid ""
+"Ich begleite Sie achtsam und stehe Ihnen bei Fragen jederzeit zur Verfügung."
+msgstr ""
+"Ich begleite Sie achtsam und stehe Ihnen bei Fragen jederzeit zur Verfügung."
+
+#: .\templates\core\contact.html:29
+msgid "Telefon"
+msgstr ""
+"Telefon"
+
+#: .\templates\core\contact.html:37
+msgid "E-Mail"
+msgstr ""
+"E-Mail"
+
+#: .\templates\core\contact.html:46
+msgid "Adresse"
+msgstr ""
+"Adresse"
+
+#: .\templates\core\contact.html:54
+msgid "24/7 erreichbar – auch an Wochenenden und Feiertagen."
+msgstr ""
+"24/7 erreichbar – auch an Wochenenden und Feiertagen."
+
+#: .\templates\core\contact.html:68
+msgid "Inhaber"
+msgstr ""
+"Inhaber"
+
+#: .\templates\core\contact.html:72
+msgid "Umsatzsteuer-ID"
+msgstr ""
+"Umsatzsteuer-ID"
+
+#: .\templates\core\contact.html:73
+msgid "wird nachgereicht"
+msgstr ""
+"wird nachgereicht"
+
+#: .\templates\core\contact.html:76
+msgid "Aufsichtsbehörde"
+msgstr ""
+"Aufsichtsbehörde"
+
+#: .\templates\core\contact.html:77
+msgid "Niedersachsen"
+msgstr ""
+"Niedersachsen"
+
+#: .\templates\core\farewell.html:11
+msgid "Individuelle Begleitung"
+msgstr ""
+"Individuelle Begleitung"
+
+#: .\templates\core\farewell.html:14
+msgid "Persönliche Abschiednahme"
+msgstr ""
+"Persönliche Abschiednahme"
+
+#: .\templates\core\farewell.html:25
+msgid ""
+"Der bewusste Abschied am offenen Sarg kann für viele Angehörige ein "
+"wichtiger Schritt im Trauerprozess sein. Er schafft einen geschützten Raum, "
+"um noch einmal in Ruhe zu verweilen, Worte zu finden oder просто побыть в "
+"тишине."
+msgstr ""
+"Der bewusste Abschied am offenen Sarg kann für viele Angehörige ein wichtiger Sc"
+"hritt im Trauerprozess sein. Er schafft einen geschützten Raum, um noch einmal i"
+"n Ruhe zu verweilen, Worte zu finden oder просто побыть в тишине."
+
+#: .\templates\core\farewell.html:41
+msgid "Zu Hause"
+msgstr ""
+"Zu Hause"
+
+#: .\templates\core\farewell.html:42
+msgid "In Ihrer vertrauten Umgebung, ganz privat."
+msgstr ""
+"In Ihrer vertrauten Umgebung, ganz privat."
+
+#: .\templates\core\farewell.html:49
+msgid "Krematorium"
+msgstr ""
+"Krematorium"
+
+#: .\templates\core\farewell.html:50
+msgid "In den dafür vorgesehenen Räumlichkeiten."
+msgstr ""
+"In den dafür vorgesehenen Räumlichkeiten."
+
+#: .\templates\core\farewell.html:57
+msgid "Abschiedsräume"
+msgstr ""
+"Abschiedsräume"
+
+#: .\templates\core\farewell.html:58
+msgid "In unseren eigenen, geschützten Räumen."
+msgstr ""
+"In unseren eigenen, geschützten Räumen."
+
+#: .\templates\core\farewell.html:66
+msgid "Es geht nicht um Formalitäten."
+msgstr ""
+"Es geht nicht um Formalitäten."
+
+#: .\templates\core\farewell.html:69
+msgid "Es geht um Nähe."
+msgstr ""
+"Es geht um Nähe."
+
+#: .\templates\core\farewell.html:72
+msgid "Um Zeit. Und um Würde."
+msgstr ""
+"Um Zeit. Und um Würde."
+
+#: .\templates\core\farewell.html:80
+msgid ""
+"Auf Wunsch bereiten wir den Raum individuell vor – schlicht und ruhig oder "
+"mit persönlichen Elementen, die an den Verstorbenen erinnern. <strong>Nichts "
+"muss, alles darf.</strong>"
+msgstr ""
+"Auf Wunsch bereiten wir den Raum individuell vor – schlicht und ruhig oder mit p"
+"ersönlichen Elementen, die an den Verstorbenen erinnern. <strong>Nichts muss, al"
+"les darf.</strong>"
+
+#: .\templates\core\farewell.html:87
+msgid ""
+"Ich bleibe an Ihrer Seite und sorge dafür, dass dieser Abschied in einem "
+"würdevollen und geschützten Rahmen stattfinden kann."
+msgstr ""
+"Ich bleibe an Ihrer Seite und sorge dafür, dass dieser Abschied in einem würdevo"
+"llen und geschützten Rahmen stattfinden kann."
+
+#: .\templates\core\funeral_speeches.html:11
+msgid "Individuelle Worte des Abschieds"
+msgstr ""
+"Individuelle Worte des Abschieds"
+
+#: .\templates\core\funeral_speeches.html:18
+msgid "Worte, die erinnern. Worte, die tragen."
+msgstr ""
+"Worte, die erinnern. Worte, die tragen."
+
+#: .\templates\core\funeral_speeches.html:32
+msgid ""
+"Jeder Mensch hinterlässt eine einzigartige Geschichte. Jede Geschichte "
+"verdient Worte, die ihr gerecht werden."
+msgstr ""
+"Jeder Mensch hinterlässt eine einzigartige Geschichte. Jede Geschichte verdient "
+"Worte, die ihr gerecht werden."
+
+#: .\templates\core\funeral_speeches.html:39
+msgid ""
+"Die Traueransprache ist ein sensibler Moment des Abschieds. Sie macht "
+"sichtbar, was bleibt: Erinnerungen, Werte und Spuren eines gelebten Lebens."
+msgstr ""
+"Die Traueransprache ist ein sensibler Moment des Abschieds. Sie macht sichtbar, "
+"was bleibt: Erinnerungen, Werte und Spuren eines gelebten Lebens."
+
+#: .\templates\core\funeral_speeches.html:46
+msgid "Ich spreche für Sie, wenn Sie es wünschen."
+msgstr ""
+"Ich spreche für Sie, wenn Sie es wünschen."
+
+#: .\templates\core\funeral_speeches.html:50
+msgid ""
+"In unserem Trauergespräch nehmen wir uns bewusst Zeit für Erinnerungen, "
+"Gedanken, besondere Momente und kleine Details. Daraus entsteht eine "
+"persönliche, würdevolle Ansprache – ehrlich und einfühlsam."
+msgstr ""
+"In unserem Trauergespräch nehmen wir uns bewusst Zeit für Erinnerungen, Gedanken"
+", besondere Momente und kleine Details. Daraus entsteht eine persönliche, würdev"
+"olle Ansprache – ehrlich und einfühlsam."
+
+#: .\templates\core\funeral_speeches.html:58
+msgid ""
+"Gerne können Sie mir Ihre Erinnerungen auch schriftlich anvertrauen. Ich "
+"forme daraus behutsam Worte, die tragen."
+msgstr ""
+"Gerne können Sie mir Ihre Erinnerungen auch schriftlich anvertrauen. Ich forme d"
+"araus behutsam Worte, die tragen."
+
+#: .\templates\core\funeral_speeches.html:68
+msgid "Nicht beeindrucken."
+msgstr ""
+"Nicht beeindrucken."
+
+#: .\templates\core\funeral_speeches.html:69
+msgid "Berühren."
+msgstr ""
+"Berühren."
+
+#: .\templates\core\funeral_speeches.html:70
+msgid "Verbinden. Trost schenken."
+msgstr ""
+"Verbinden. Trost schenken."
+
+#: .\templates\core\funeral_speeches.html:79
+msgid ""
+"Auf Wunsch vermittle ich erfahrene professionelle Trauerrednerinnen und "
+"Trauerredner, die einfühlsam begleiten."
+msgstr ""
+"Auf Wunsch vermittle ich erfahrene professionelle Trauerrednerinnen und Trauerre"
+"dner, die einfühlsam begleiten."
+
+#: .\templates\core\funeral_speeches.html:86
+msgid ""
+"Ob ich selbst spreche oder vermittle – ich gestalte mit Ihnen einen "
+"würdevollen, persönlichen Abschied."
+msgstr ""
+"Ob ich selbst spreche oder vermittle – ich gestalte mit Ihnen einen würdevollen,"
+" persönlichen Abschied."
+
+#: .\templates\core\home.html:9
+msgid "An Ihrer Seite – in schweren Stunden."
+msgstr ""
+"An Ihrer Seite – in schweren Stunden."
+
+#: .\templates\core\home.html:10
+msgid "Ich komme zu Ihnen – dorthin, wo Abschied möglich sein darf."
+msgstr ""
+"Ich komme zu Ihnen – dorthin, wo Abschied möglich sein darf."
+
+#: .\templates\core\home.html:13
+msgid "Alles aus einer vertrauensvollen Hand."
+msgstr ""
+"Alles aus einer vertrauensvollen Hand."
+
+#: .\templates\core\home.html:27
+msgid "Bestattungen"
+msgstr ""
+"Bestattungen"
+
+#: .\templates\core\home.html:29
+msgid ""
+"Respektvolle Bestattungen unter Berücksichtigung all Ihrer Wünsche und "
+"Traditionen. Wir sind für Sie da."
+msgstr ""
+"Respektvolle Bestattungen unter Berücksichtigung all Ihrer Wünsche und Tradition"
+"en. Wir sind für Sie da."
+
+#: .\templates\core\home.html:43
+msgid ""
+"Mit persönlicher und individueller Trauerrede, gestalten wir den Abschied "
+"unvergesslich."
+msgstr ""
+"Mit persönlicher und individueller Trauerrede, gestalten wir den Abschied unverg"
+"esslich."
+
+#: .\templates\core\home.html:56
+msgid ""
+"Raum für persönliche Abschiednahme in geborgener Atmosphäre. Zeit für "
+"Erinnerungen."
+msgstr ""
+"Raum für persönliche Abschiednahme in geborgener Atmosphäre. Zeit für Erinnerung"
+"en."
+
+#: .\templates\core\home.html:73
+msgid "Persönliche Begleitung"
+msgstr ""
+"Persönliche Begleitung"
+
+#: .\templates\core\home.html:75
+msgid ""
+"Eine Hand, die Sie sicher hält. Lebensnaher, persönlicher und "
+"unterstützender Dienst."
+msgstr ""
+"Eine Hand, die Sie sicher hält. Lebensnaher, persönlicher und unterstützender Di"
+"enst."
+
+#: .\templates\core\home.html:80
+msgid ""
+"Ich begleite Sie gerne bei Bestattungen, unter allen Bedingungen, zuhause "
+"oder in Begleitung. Für ein würdiges Andenken."
+msgstr ""
+"Ich begleite Sie gerne bei Bestattungen, unter allen Bedingungen, zuhause oder i"
+"n Begleitung. Für ein würdiges Andenken."
+
+#: .\templates\core\home.html:85
+msgid "Mehr Erfahren"
+msgstr ""
+"Mehr Erfahren"
+
+#: .\templates\core\service_detail.html:17
+msgid "Price starting at"
+msgstr ""
+"Preis ab"
+
+#: .\templates\core\service_detail.html:20
+msgid "Request Service"
+msgstr ""
+"Service anfordern"
+
+#: .\templates\core\service_list.html:17
+msgid "Bestattungsarten"
+msgstr ""
+"Bestattungsarten"
+
+#: .\templates\core\service_list.html:18
+msgid "Ich begleite Sie bei allen Bestattungsformen:"
+msgstr ""
+"Ich begleite Sie bei allen Bestattungsformen:"
+
+#: .\templates\core\service_list.html:20
+msgid "Erdbestattung"
+msgstr ""
+"Erdbestattung"
+
+#: .\templates\core\service_list.html:21
+msgid "Feuerbestattung"
+msgstr ""
+"Feuerbestattung"
+
+#: .\templates\core\service_list.html:22
+msgid "Seebestattung"
+msgstr ""
+"Seebestattung"
+
+#: .\templates\core\service_list.html:23
+msgid "Waldbestattung (z. B. FriedWald, RuheForst, EwigForst)"
+msgstr ""
+"Waldbestattung (z. B. FriedWald, RuheForst, EwigForst)"
+
+#: .\templates\core\service_list.html:24
+msgid "Anonyme Bestattung"
+msgstr ""
+"Anonyme Bestattung"
+
+#: .\templates\core\service_list.html:27
+msgid ""
+"Die Begleitung erfolgt individuell und ortsunabhängig – im Landkreis "
+"Lüneburg, im Landkreis Harburg und darüber hinaus."
+msgstr ""
+"Die Begleitung erfolgt individuell und ortsunabhängig – im Landkreis Lüneburg, i"
+"m Landkreis Harburg und darüber hinaus."
+
+#: .\templates\core\service_list.html:38
+msgid "Individuelle Abschiedsgestaltung"
+msgstr ""
+"Individuelle Abschiedsgestaltung"
+
+#: .\templates\core\service_list.html:39
+msgid "Abschied darf persönlich sein."
+msgstr ""
+"Abschied darf persönlich sein."
+
+#: .\templates\core\service_list.html:40
+msgid ""
+"Gemeinsam gestalten wir eine Trauerfeier, die zu dem Menschen passt, den Sie "
+"verabschieden."
+msgstr ""
+"Gemeinsam gestalten wir eine Trauerfeier, die zu dem Menschen passt, den Sie ver"
+"abschieden."
+
+#: .\templates\core\service_list.html:43
+msgid "Mögliche Schwerpunkte:"
+msgstr ""
+"Mögliche Schwerpunkte:"
+
+#: .\templates\core\service_list.html:45
+msgid "Natur & Wald"
+msgstr ""
+"Natur & Wald"
+
+#: .\templates\core\service_list.html:46
+msgid "Maritim / See"
+msgstr ""
+"Maritim / See"
+
+#: .\templates\core\service_list.html:47
+msgid "Klassisch & zurückhaltend"
+msgstr ""
+"Klassisch & zurückhaltend"
+
+#: .\templates\core\service_list.html:51
+msgid "Auf Wunsch binden wir Gedenklichter ein."
+msgstr ""
+"Auf Wunsch binden wir Gedenklichter ein."
+
+#: .\templates\core\service_list.html:53
+msgid ""
+"Zu Beginn der Trauerfeier können diese von den Gästen abgelegt werden – erst "
+"danach nehmen sie Platz. Für viele Trauernde entsteht so ein bewusster, "
+"ruhiger Beginn des Abschieds."
+msgstr ""
+"Zu Beginn der Trauerfeier können diese von den Gästen abgelegt werden – erst dan"
+"ach nehmen sie Platz. Für viele Trauernde entsteht so ein bewusster, ruhiger Beg"
+"inn des Abschieds."
+
+#: .\templates\core\service_list.html:66
+msgid "Erinnerungsschmuck & Gedenkkristalle"
+msgstr ""
+"Erinnerungsschmuck & Gedenkkristalle"
+
+#: .\templates\core\service_list.html:68
+msgid ""
+"In Zusammenarbeit mit <strong>Olha’s Gedenkkristalle</strong> entstehen "
+"handgefertigte Erinnerungsstücke aus Epoxidharz:"
+msgstr ""
+"In Zusammenarbeit mit <strong>Olha’s Gedenkkristalle</strong> entstehen handgefe"
+"rtigte Erinnerungsstücke aus Epoxidharz:"
+
+#: .\templates\core\service_list.html:74
+msgid "Ketten und Anhänger"
+msgstr ""
+"Ketten und Anhänger"
+
+#: .\templates\core\service_list.html:75
+msgid "Herzen und Handschmeichler"
+msgstr ""
+"Herzen und Handschmeichler"
+
+#: .\templates\core\service_list.html:76
+msgid "Erinnerungsobjekte für zu Hause"
+msgstr ""
+"Erinnerungsobjekte für zu Hause"
+
+#: .\templates\core\service_list.html:79
+msgid "Eingearbeitet werden können:"
+msgstr ""
+"Eingearbeitet werden können:"
+
+#: .\templates\core\service_list.html:81
+msgid "Haare"
+msgstr ""
+"Haare"
+
+#: .\templates\core\service_list.html:82
+msgid "Fingerabdrücke"
+msgstr ""
+"Fingerabdrücke"
+
+#: .\templates\core\service_list.html:83
+msgid "kleine Fotos"
+msgstr ""
+"kleine Fotos"
+
+#: .\templates\core\service_list.html:85
+msgid "Alle Stücke entstehen in liebevoller Handarbeit."
+msgstr ""
+"Alle Stücke entstehen in liebevoller Handarbeit."

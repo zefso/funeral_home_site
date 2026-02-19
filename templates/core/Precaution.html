@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+
+<!-- EDITORIAL HEADER -->
+<section class="page-header editorial-header">
+    <div class="container editorial-hero">
+        <h1 class="editorial-title">
+            {% trans "Bestattungsvorsorge" %}
+        </h1>
+        <p class="editorial-subtitle">
+            {% trans "Selbstbestimmt entscheiden. Angehörige entlasten." %}
+        </p>
+        <div class="editorial-line"></div>
+    </div>
+</section>
+
+<!-- STORY TIMELINE -->
+<section class="content-section editorial-flow">
+    <div class="container timeline-container">
+
+        <div class="timeline-step">
+            <span class="step-dot"></span>
+            <p class="step-text">
+                {% blocktrans trimmed %}
+                Über das eigene Lebensende zu sprechen, braucht Vertrauen. Und Zeit.
+                Beides möchte ich Ihnen geben.
+                {% endblocktrans %}
+            </p>
+        </div>
+
+        <div class="timeline-step">
+            <span class="step-dot"></span>
+            <p class="step-text">
+                {% blocktrans trimmed %}
+                In einem ruhigen Gespräch höre ich Ihnen zu:
+                Was ist Ihnen wichtig? Welche Vorstellungen tragen Sie in sich?
+                Welche Fragen bewegen Sie?
+                {% endblocktrans %}
+            </p>
+        </div>
+
+        <div class="timeline-step wide">
+            <span class="step-dot"></span>
+            <p class="step-text">
+                {% blocktrans trimmed %}
+                Mit einer Bestattungsvorsorge schaffen Sie Klarheit – für sich und Ihre Angehörigen.
+                Sie bestimmen Bestattungsart, Zeremonie, Musik, Rituale und persönliche Wünsche.
+                Alles wird sorgfältig festgehalten und umgesetzt.
+                {% endblocktrans %}
+            </p>
+        </div>
+
+        <!-- CENTER QUOTE -->
+        <div class="editorial-quote">
+            {% trans "Für mich bedeutet Vorsorge vor allem eines: Fürsorge." %}
+        </div>
+
+        <div class="timeline-step">
+            <span class="step-dot"></span>
+            <p class="step-text">
+                {% blocktrans trimmed %}
+                Sie schenken Ihren Angehörigen Orientierung und Sicherheit
+                in einer emotional schweren Zeit.
+                {% endblocktrans %}
+            </p>
+        </div>
+
+        <div class="timeline-step">
+            <span class="step-dot"></span>
+            <p class="step-text">
+                {% blocktrans trimmed %}
+                Auch finanzielle Fragen werden transparent geregelt,
+                damit organisatorisch wie menschlich alles vorbereitet ist.
+                {% endblocktrans %}
+            </p>
+        </div>
+
+        <div class="final-editorial">
+            {% blocktrans trimmed %}
+            Die Bestattungsvorsorge ist kein schwerer Schritt.
+            Sie ist ein bewusster – aus Verantwortung und aus Liebe.
+            {% endblocktrans %}
+        </div>
+
+        <div class="editorial-contact">
+            {% blocktrans trimmed %}
+            Gerne bin ich persönlich für ein unverbindliches Gespräch für Sie da.
+            {% endblocktrans %}
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

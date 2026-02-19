@@ -1,0 +1,142 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 – {% trans "Seite nicht gefunden" %} | Bestattungshaus Riedel</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon-32x32.png' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        .error-page {
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .error-content {
+            max-width: 560px;
+        }
+
+        .error-icon {
+            font-size: 5rem;
+            color: var(--color-primary, #4a6fa5);
+            margin-bottom: 24px;
+            opacity: 0.7;
+        }
+
+        .error-code {
+            font-size: 7rem;
+            font-weight: 700;
+            color: var(--color-primary, #4a6fa5);
+            line-height: 1;
+            margin-bottom: 12px;
+            letter-spacing: -4px;
+        }
+
+        .error-title {
+            font-size: 1.6rem;
+            color: var(--color-text, #333);
+            margin-bottom: 16px;
+        }
+
+        .error-text {
+            color: var(--color-text-light, #666);
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 36px;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-outline {
+            padding: 12px 28px;
+            border: 2px solid var(--color-primary, #4a6fa5);
+            color: var(--color-primary, #4a6fa5);
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .btn-outline:hover {
+            background: var(--color-primary, #4a6fa5);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-inner">
+            <div class="logo-area">
+                <a href="{% url 'core:home' %}"
+                    style="text-decoration: none; display: flex; align-items: center; gap: 15px;">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-dove fa-2x" style="color: var(--color-primary);"></i>
+                    </div>
+                    <div class="brand-name">
+                        {% trans "Bestattungshaus" %}<br>
+                        <span>Riedel</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="error-page">
+            <div class="error-content">
+                <div class="error-icon">
+                    <i class="fa-solid fa-dove"></i>
+                </div>
+                <div class="error-code">404</div>
+                <h1 class="error-title">{% trans "Seite nicht gefunden" %}</h1>
+                <p class="error-text">
+                    {% blocktrans trimmed %}
+                    Die gesuchte Seite konnte leider nicht gefunden werden.
+                    Vielleicht wurde sie verschoben oder existiert nicht mehr.
+                    {% endblocktrans %}
+                </p>
+                <div class="error-actions">
+                    <a href="{% url 'core:home' %}" class="btn">
+                        <i class="fa-solid fa-house"></i> {% trans "Zur Startseite" %}
+                    </a>
+                    <a href="{% url 'core:contact' %}" class="btn-outline">
+                        <i class="fa-solid fa-phone"></i> {% trans "Kontakt" %}
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="container contact-bar">
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>{% trans "24h erreichbar: +49 160 7608156" %}</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Bestattungshaus-Riedel@t-online.de</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
