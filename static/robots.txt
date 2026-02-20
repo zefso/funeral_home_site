@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bestattungshaus-riedel.onrender.com/sitemap.xml

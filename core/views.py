@@ -10,10 +10,6 @@ def service_list(request):
     services = Service.objects.filter(is_active=True)
     return render(request, 'core/service_list.html', {'categories': categories, 'services': services})
 
-def service_detail(request, pk):
-    service = get_object_or_404(Service, pk=pk)
-    return render(request, 'core/service_detail.html', {'service': service})
-
 def contact(request):
     return render(request, 'core/contact.html')
 
